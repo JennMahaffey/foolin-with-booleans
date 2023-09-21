@@ -10,6 +10,9 @@ function isNewTopScore(num1, num2) {
   return num1 > num2
 }
 
+function isInDanger(num) {
+  return num >= 60 && num <= 71
+}
 
 
 
