@@ -14,6 +14,10 @@ function isInDanger(num) {
   return num >= 60 && num <= 71
 }
 
+function isCoasting(num) {
+  return num >= 72 && num <= 83
+}
+
 
 
 /********************************************************************************************
