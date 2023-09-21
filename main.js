@@ -18,6 +18,21 @@ function isCoasting(num) {
   return num >= 72 && num <= 83
 }
 
+function isSucceeding(num) {
+  return num >= 84 && num <=92
+}
+
+function isFailing(num) {
+  return num < 60
+}
+
+function isAcing(num) {
+  return num > 92
+}
+
+function isStudent(str) {
+  return str === 'student'
+}
 
 
 /********************************************************************************************
