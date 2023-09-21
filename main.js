@@ -1,8 +1,13 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+
 function moreThan5(num) {
   return num > 5;
+}
+
+function isNewTopScore(num1, num2) {
+  return num1 > num2
 }
 
 
