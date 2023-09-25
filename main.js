@@ -34,7 +34,7 @@ function isStudent(str) {
   return str === 'student'
 }
 
-
+function isTeacher() =
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
