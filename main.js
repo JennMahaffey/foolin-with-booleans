@@ -34,7 +34,31 @@ function isStudent(str) {
   return str === 'student'
 }
 
-function isTeacher() =
+function isTeacher(str) {
+  return str === 'teacher';
+
+}
+
+function isAdmin(str) {
+  return str === 'admin';
+}
+
+function isElementary(str){
+  return str === 'elementary';
+}
+
+function areDifferentPeople(str1, str2){
+  return str1 != str2;
+}
+
+function isMiddleSchoolTeacher(str, num) {
+  return str === 'teacher' && num >= 6 && num <=8;
+}
+
+function notAnElementarySchoolAdministrator(str1, str2) {
+  return str1 !== 'elementary' || str2 !=='admin';
+} 
+
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
